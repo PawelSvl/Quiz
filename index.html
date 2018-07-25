@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs js</title>
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="quiz" name="quiz">
+        <legend>Stolica Polski</legend>
+        <p>
+            <label> 
+                <input type="radio" name="question1" value="Kraków "> Kraków 
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="question1" value="Sopot"> Sopot 
+            </label>
+        </p>
+        <p>
+            <label class="odpowiedz1">
+                <input  type="radio" name="question1" value="Warszawa" > Warszawa
+            </label>
+        </p>
+        <legend>Stolica Fracji</legend>
+        <p>
+            <label>
+                <input type="radio" name="question2" value="Marsylia"> Marsylia 
+            </label>
+        </p>
+        <p>
+            <label for="" class="odpowiedz2">
+                <input type="radio" name="question2" value="Paryż"> Paryż 
+            </label>
+        </p>
+        <p>
+            <label for="">
+                <input  type="radio" name="question2" value="Nicea" > Nicea
+            </label>
+        </p>
+        <legend>Stolica Danii</legend>
+        <p>
+            <label class="odpowiedz3"> 
+                <input type="radio" name="question3" value="Kopenhaga"> Kopenhaga
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="question3" value="Gladsaxe"> Gladsaxe 
+            </label>
+        </p>
+        <p>
+            <label>
+                <input  type="radio" name="question3" value="Roskilde" > Roskilde
+            </label>
+        </p>
+        <legend>Stolica Finlandii</legend>
+        <p>
+            <label> 
+                <input type="radio" name="question4" value="Lahti"> Lahti 
+            </label>
+        </p>
+        <p>
+            <label class="odpowiedz4">
+                <input type="radio" name="question4" value="Helsinki"> Helsinki
+            </label>
+        </p>
+        <p>
+            <label>
+                <input  type="radio" name="question4" value="Turku" > Turku
+            </label>
+        </p>
+        <legend>Stolica hiszpanii</legend>
+        <p>
+            <label> 
+                <input type="radio" name="question5" value="Sewilla  "> Sewilla  
+            </label>
+        </p>
+        <p>
+            <label class="odpowiedz5">
+                <input type="radio" name="question5" value="Madryt"> Madryt  
+            </label>
+        </p>
+        <p>
+            <label >
+                <input  type="radio" name="question5" value="Barcelona" > Barcelona
+            </label>
+        </p>
+    </form>
+    <div class="btn" onclick="quiz1()">Wynik</div>
+    <div id="wynik">
+        <p id="numberCorect"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

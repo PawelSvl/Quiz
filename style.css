@@ -1,0 +1,60 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    font-size: 25px;
+    background-color: honeydew;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+legend {
+    font-weight: bold;
+}
+
+p {
+    padding: 0 25px;
+}
+
+.active {
+    color: #40ff00;
+    font-weight: bold;
+}
+
+#wynik {
+    visibility: hidden;
+    font-size: 30px;
+}
+
+form {
+    width: 200px;
+    margin: auto
+}
+
+.btn {
+    color: #fff;
+    font-size: 25;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 1000px;
+    background-color: red;
+    margin: auto;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: honeydew;
+    color: red;
+}
+
+#wynik {
+    text-align: center;
+}
+#numberCorect {
+    margin: 0;
+}
